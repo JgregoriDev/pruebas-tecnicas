@@ -1,0 +1,28 @@
+.btitle {
+  position: relative;
+}
+
+.gap {
+  gap: 1rem;
+}
+.btitle__overlay {
+  position: absolute;
+  width: 100%;
+  min-height: 115px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 25px;
+  left: 0;
+  z-index: 1;
+  color: white;
+  /* Resto de estilos */
+}
+
+.absol {
+  position: absolute;
+  top: -460px;
+  right: 0;
+}
